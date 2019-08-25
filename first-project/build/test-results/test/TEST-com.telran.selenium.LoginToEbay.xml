@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.selenium.LoginToEbay" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-22T17:50:23" hostname="DESKTOP-F9966VI" time="20.002">
+<testsuite name="com.telran.selenium.LoginToEbay" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-25T11:49:02" hostname="DESKTOP-F9966VI" time="10.911">
   <properties/>
-  <testcase name="LoginTest" classname="com.telran.selenium.LoginToEbay" time="20.002"/>
+  <testcase name="LoginTest" classname="com.telran.selenium.LoginToEbay" time="10.911"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 24512
+  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 9387
 Only local connections are allowed.
 Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1566496221.452][WARNING]: Timed out connecting to Chrome, retrying...
-авг 22, 2019 8:50:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1566733740.899][WARNING]: Timed out connecting to Chrome, retrying...
+авг 25, 2019 2:49:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
