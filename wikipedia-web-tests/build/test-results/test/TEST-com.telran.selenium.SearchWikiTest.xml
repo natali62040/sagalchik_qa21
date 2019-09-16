@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.selenium.SearchWikiTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-16T18:51:34" hostname="DESKTOP-F9966VI" time="8.512">
+  <properties/>
+  <testcase name="setUP" classname="com.telran.selenium.SearchWikiTest" time="8.512"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

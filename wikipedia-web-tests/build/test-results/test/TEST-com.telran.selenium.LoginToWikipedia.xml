@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.selenium.LoginToWikipedia" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-08-25T13:35:13" hostname="DESKTOP-F9966VI" time="11.179">
+<testsuite name="com.telran.selenium.LoginToWikipedia" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-16T18:51:26" hostname="DESKTOP-F9966VI" time="7.988">
   <properties/>
-  <testcase name="LoginTest" classname="com.telran.selenium.LoginToWikipedia" time="11.179"/>
+  <testcase name="LoginTest" classname="com.telran.selenium.LoginToWikipedia" time="7.988"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 76.0.3809.68 (420c9498db8ce8fcd190a954d51297672c1515d5-refs/branch-heads/3809@{#864}) on port 6458
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1566740111.298][WARNING]: Timed out connecting to Chrome, retrying...
-авг 25, 2019 4:35:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
+  <system-err><![CDATA[]]></system-err>
 </testsuite>
