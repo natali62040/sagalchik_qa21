@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.selenium.SearchWikiTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-09-22T19:00:03" hostname="DESKTOP-F9966VI" time="9.073">
+<testsuite name="com.telran.selenium.SearchWikiTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2019-09-22T21:55:40" hostname="DESKTOP-F9966VI" time="8.569">
   <properties/>
-  <testcase name="setUP" classname="com.telran.selenium.SearchWikiTest" time="9.073">
+  <testcase name="setUP" classname="com.telran.selenium.SearchWikiTest" time="8.569">
     <failure message="java.lang.NullPointerException" type="java.lang.NullPointerException">java.lang.NullPointerException
 	at com.telran.selenium.SearchHelper.getArticleTitle(SearchHelper.java:15)
-	at com.telran.selenium.SearchWikiTest.setUP(SearchWikiTest.java:15)
+	at com.telran.selenium.SearchWikiTest.setUP(SearchWikiTest.java:16)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

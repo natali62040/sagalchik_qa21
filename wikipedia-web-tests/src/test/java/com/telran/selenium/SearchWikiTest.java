@@ -12,8 +12,7 @@ public class SearchWikiTest extends TestBase {
 
         app.getSearchHelper().type(By.cssSelector("[name='search']"),"java"+ Keys.ENTER);
         Thread.sleep(7000);
-        String articleTitle = app.getSearchHelper().getArticleTitle();
-        Assert.assertEquals(articleTitle.toLowerCase(),"java".toLowerCase());
+        Assert.assertEquals(app.getSearchHelper().getArticleTitle().toLowerCase(),"java".toLowerCase());
 
     }
 }

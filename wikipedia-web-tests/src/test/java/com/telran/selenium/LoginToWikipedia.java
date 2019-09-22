@@ -12,8 +12,8 @@ public class LoginToWikipedia extends TestBase {
             app.getSessionHelper().openSite("https://en.wikipedia.org/wiki/Main_Page");
         }
     }
-    @Test
 
+    @Test
     public void LoginTest() throws InterruptedException {
         app.getSessionHelper().login("Natali62040","Sn271206");
 

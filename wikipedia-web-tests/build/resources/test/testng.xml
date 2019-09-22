@@ -3,8 +3,8 @@
 <suite name="Regression" verbose="1" >
     <test name="Regression_wiki" >
         <classes>
-            <class name="com.telran.selenium.SearchWikiTest" />
             <class name="com.telran.selenium.LoginToWikipedia" />
+            <class name="com.telran.selenium.SearchWikiTest" />
         </classes>
     </test>
 

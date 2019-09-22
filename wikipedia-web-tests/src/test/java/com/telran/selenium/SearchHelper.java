@@ -12,6 +12,6 @@ public class SearchHelper extends HelperBase {
     }
 
     public String getArticleTitle() {
-        return driver.findElement(By.cssSelector("#firstHeading")).getText();
+        return driver.findElement(By.cssSelector(".firstHeading")).getText();
     }
 }
