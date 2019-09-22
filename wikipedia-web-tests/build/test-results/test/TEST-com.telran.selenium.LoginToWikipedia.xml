@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.telran.selenium.LoginToWikipedia" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-16T18:51:26" hostname="DESKTOP-F9966VI" time="7.988">
-  <properties/>
-  <testcase name="LoginTest" classname="com.telran.selenium.LoginToWikipedia" time="7.988"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 public class LoginToWikipedia extends TestBase {
     @BeforeMethod
     public void preconditions(){
-        if(!app.isElementPresent(By.id("pt-login"))){
-            app.openSite("https://en.wikipedia.org/wiki/Main_Page");
+        if(!app.getSessionHelper().isElementPresent(By.id("pt-login"))){
+            app.getSessionHelper().openSite("https://en.wikipedia.org/wiki/Main_Page");
         }
     }
     @Test
 
     public void LoginTest() throws InterruptedException {
-        app.login("Natali62040","Sn271206");
+        app.getSessionHelper().login("Natali62040","Sn271206");
 
         Thread.sleep(7000);
 
@@ -23,7 +23,7 @@ public class LoginToWikipedia extends TestBase {
 
     @AfterMethod
     public void postAction(){
-        app.openSite("https://en.wikipedia.org/wiki/Main_Page");
+        app.getSessionHelper().openSite("https://en.wikipedia.org/wiki/Main_Page");
     }
 
 }

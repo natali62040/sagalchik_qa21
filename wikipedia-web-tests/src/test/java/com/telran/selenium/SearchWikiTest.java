@@ -10,9 +10,21 @@ public class SearchWikiTest extends TestBase {
     @Test
     public void setUP() throws InterruptedException {
 
-        app.type(By.cssSelector("[name='search']"),"java"+ Keys.ENTER);
+        app.getSearchHelper().type(By.cssSelector("[name='search']"),"java"+ Keys.ENTER);
         Thread.sleep(7000);
-        Assert.assertEquals(app.getArticleTitle().toLowerCase(),"java".toLowerCase());
+        String articleTitle = app.getSearchHelper().getArticleTitle();
+        Assert.assertEquals(articleTitle.toLowerCase(),"java".toLowerCase());
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
