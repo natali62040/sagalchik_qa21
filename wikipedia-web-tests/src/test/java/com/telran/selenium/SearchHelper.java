@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class SearchHelper extends HelperBase {
 
-    WebDriver driver;
+    //WebDriver driver;
 
     public SearchHelper(WebDriver driver) {
         super(driver);
